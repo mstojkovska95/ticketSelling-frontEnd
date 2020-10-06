@@ -1,0 +1,67 @@
+<div class="klasa">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a routerLink="/concerts/1"><img src="https://sortir-prod.s3.amazonaws.com/uploads/events/covers/original/6dceed065695eb1e35f3a5d14fbf18d1e830a5de.jpg?1561629896" class="d-block w-100" alt="Sting"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Sting</h2>
+          <p class="font-weight-bold display-5">is comming to Macedonia!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a routerLink="/concerts/4"><img src="../../../assets/img/Lenny.jpg" class="d-block w-100" alt="Lenny Kravitz"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">Lenny Kravitz</h2> 
+          <p class="font-weight-bold display-5"> again in Skopje!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a routerLink="/concerts/2"><img src="../../../assets/img/exit1.jpg" class="d-block w-100" alt="EXIT"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4">EXIT</h2>
+          <p class="font-weight-bold text-secondary display-5">Novi Sad is calling you!</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container">
+    <h2 class="text-center mb-5 text-secondary">Our Success Stories</h2>
+
+    <div class="row">
+      <div class="col-md-4">
+        <app-card-home [cardImg]="cardImg1"
+                       [cardHeader]="cardHeader1"
+                       [cardText] = "cardText1"
+                       ></app-card-home>
+      </div>
+      <div class="col-md-4">
+        <app-card-home [cardImg]="cardImg2"
+                       [cardHeader]="cardHeader2"
+                       [cardText] = "cardText2"
+                       ></app-card-home>
+      </div>
+      <div class="col-md-4">
+        <app-card-home [cardImg]="cardImg3"
+                       [cardHeader]="cardHeader3"
+                       [cardText] = "cardText3"
+                       ></app-card-home>
+      </div>
+    </div>
+  </div>
+</div>

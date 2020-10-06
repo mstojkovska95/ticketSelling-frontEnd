@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class=" text-center  mb-5">{{pageTitle|uppercase}}</h1>
+        </div>
+        <div class="col-md-4" *ngFor="let concert of concerts; let i = index">
+            
+
+            <!-- share card -->
+            <app-card [concert]="concert"></app-card>
+
+        </div>
+    </div>
+</div>
+
+
+
+

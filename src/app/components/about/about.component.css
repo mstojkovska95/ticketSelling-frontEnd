@@ -1,0 +1,15 @@
+h1{
+    font-family: "Playfair Display", Georgia, serif;
+    color: #f0f0f0;
+    font-size: 4rem;
+    font-weight: 700;
+}
+p{
+    margin: 0px 200px;
+    margin-bottom: 80px; 
+}
+.container{
+    padding-top: 70px;
+    padding-bottom: 30px; 
+   }
+    

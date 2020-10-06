@@ -1,0 +1,10 @@
+.card-img-top {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.card-text {
+    height: 120px !important;
+}
