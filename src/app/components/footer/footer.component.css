@@ -1,5 +1,6 @@
 footer{
     overflow: hidden;
+    height: 170px !important;
 }
 #p1:hover{color: lightgray;}
 
